@@ -1,0 +1,47 @@
+# CystaCare Environment Variables Template
+# Copy this file to .env and fill in your actual values
+
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# MongoDB Configuration
+MONGODB_URI=mongodb://localhost:27017/cystacare
+# Or MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/cystacare
+
+# JWT Secret (Generate a strong random string)
+JWT_SECRET=your_jwt_secret_key_here
+JWT_EXPIRE=7d
+
+# OpenAI API Configuration
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# Session Secret
+SESSION_SECRET=your_session_secret_here
+
+# API Rate Limiting
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+
+# Frontend URL (for CORS)
+FRONTEND_URL=http://localhost:5000
+
+# Python Path (for ML model execution)
+PYTHON_PATH=python3
+
+# Email Configuration (Future feature)
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_USER=your_email@gmail.com
+# SMTP_PASS=your_app_password
+
+# Logging
+LOG_LEVEL=info
+
+# Security
+BCRYPT_ROUNDS=10
+
+# File Upload (Future feature)
+# MAX_FILE_SIZE=5242880
+# UPLOAD_DIR=./uploads
+
