@@ -52,13 +52,13 @@ You need to demonstrate:
 **File:** `CystaCare/docs/user-stories.md`
 
 **What to highlight:**
-- User personas (Priya - primary user)
+- User personas (Hardavi - primary user)
 - Key user stories for each module
 - Use cases (UC-001, UC-002, UC-003)
 - Feature prioritization (MVP vs. future)
 
 **Key talking point:**  
-*"We've identified our primary user persona 'Priya' - a 26-year-old professional who needs PCOS support."*
+*"We've identified our primary user persona 'Hardavi' - a 26-year-old professional who needs PCOS support."*
 
 ---
 

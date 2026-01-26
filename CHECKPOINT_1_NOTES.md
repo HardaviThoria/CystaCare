@@ -1,6 +1,6 @@
 # Checkpoint 1 Meeting Notes
 
-**Date:** Week 3-4, January 2026  
+**Date:** Week 1-2, January 2026  
 **Student:** Hardavi Thoria (829265453)  
 **Project:** CystaCare - AI-Powered PCOS Companion
 
@@ -11,12 +11,12 @@
 ### Phase 1: Requirement Analysis (Week 1-2)
 - ✅ Conducted PCOS domain research
 - ✅ Analyzed existing solutions and identified gaps
-- ✅ Defined user personas (Primary: Priya, Secondary: Healthcare Provider)
+- ✅ Defined user personas (Primary: Hardavi, Secondary: Healthcare Provider)
 - ✅ Created user stories for all three modules
 - ✅ Drafted use cases and user flows
 - ✅ Documented functional and non-functional requirements
 
-### Phase 2: UI/UX Design & Architecture (Week 3-4)
+### Phase 2: UI/UX Design & Architecture 
 - ✅ Selected technology stack:
   - Frontend: HTML, CSS, Bootstrap, EJS
   - Backend: Node.js, Express.js, MongoDB
@@ -27,7 +27,7 @@
 - ✅ Defined API endpoints structure
 - ✅ Set up initial repository structure
 - ✅ Created wireframe guidelines and design principles
-- 🔄 Wireframes in progress (Home, Predict, Moodie, Foodie pages)
+- ✅ Wireframes in progress (Home, Predict, Moodie, Foodie pages)
 
 ---
 

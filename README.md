@@ -143,7 +143,7 @@ CystaCare/
 
 ## 👥 User Personas
 
-### Primary User: "Priya" - 26-year-old working professional
+### Primary User: "Hardavi" - 26-year-old working professional
 - **Needs:** Early PCOS detection, emotional support, dietary guidance
 - **Pain Points:** Delayed diagnosis, lack of holistic support
 - **Tech Savviness:** Moderate (smartphone user, social media active)

@@ -1,4 +1,4 @@
-# User Stories & Use Cases
+ User Stories & Use Cases
 
 **Project:** CystaCare  
 **Version:** 0.2.0  
@@ -6,9 +6,9 @@
 
 ---
 
-## User Personas
+ User Personas
 
-### Persona 1: Priya (Primary User)
+ Persona 1: Hardavi (Primary User)
 - **Age:** 26
 - **Occupation:** Software Engineer
 - **Location:** Urban India
@@ -19,16 +19,16 @@
   - Difficulty maintaining PCOS-friendly diet
   - Lack of emotional support
 
-### Persona 2: Dr. Sharma (Secondary User)
+ Persona 2: Dr. Sharma (Secondary User)
 - **Role:** Gynecologist
 - **Use Case:** Preliminary screening tool
 - **Needs:** Quick risk assessment for patients
 
 ---
 
-## User Stories
+ User Stories
 
-### Module 1: PCOS-Detection
+ Module 1: PCOS-Detection
 
 **US-001:** Risk Assessment
 ```
@@ -52,7 +52,7 @@ So that I can track changes over time.
 
 ---
 
-### Module 2: Moodie (Journal)
+ Module 2: Moodie (Journal)
 
 **US-003:** Create Journal Entry
 ```
@@ -86,9 +86,9 @@ I want to search and filter my past entries,
 So that I can easily find specific thoughts or periods.
 ```
 
----
 
-### Module 3: Foodie (Chatbot)
+
+ Module 3: Foodie (Chatbot)
 
 **US-006:** Get Recipe Suggestions
 ```
@@ -119,7 +119,7 @@ So that I stay motivated to eat healthy.
 
 ---
 
-### Module 4: Authentication
+ Module 4: Authentication
 
 **US-009:** User Registration
 ```
@@ -141,18 +141,18 @@ I want to log in securely,
 So that I can access my personalized data.
 ```
 
----
 
-## Use Cases
 
-### UC-001: Complete PCOS Risk Assessment
+ Use Cases
 
-**Actor:** Priya (New User)
+ UC-001: Complete PCOS Risk Assessment
+
+**Actor:** Hardavi (New User)
 
 **Preconditions:** None
 
 **Flow:**
-1. Priya visits CystaCare homepage
+1. Hardavi visits CystaCare homepage
 2. Clicks "PCOS Risk Assessment"
 3. Fills health questionnaire (symptoms, cycle info, lifestyle)
 4. Submits form
@@ -162,16 +162,16 @@ So that I can access my personalized data.
 
 **Postconditions:** Risk assessment saved (if registered)
 
----
 
-### UC-002: Daily Journaling with Emotion Tracking
 
-**Actor:** Priya (Registered User)
+ UC-002: Daily Journaling with Emotion Tracking
+
+**Actor:** Hardavi (Registered User)
 
 **Preconditions:** User is logged in
 
 **Flow:**
-1. Priya navigates to "Moodie" section
+1. Hardavi navigates to "Moodie" section
 2. Clicks "New Journal Entry"
 3. Writes about her day and feelings
 4. Clicks "Publish"
@@ -181,16 +181,16 @@ So that I can access my personalized data.
 
 **Postconditions:** Journal stored, emotions analyzed
 
----
 
-### UC-003: Get Dinner Recipe Suggestion
 
-**Actor:** Priya (Registered User)
+ UC-003: Get Dinner Recipe Suggestion
+
+**Actor:** Hardavi (Registered User)
 
 **Preconditions:** User is logged in
 
 **Flow:**
-1. Priya opens "Foodie" chatbot
+1. Hardavi opens "Foodie" chatbot
 2. Types: "I have rice and vegetables. What can I make for dinner?"
 3. Chatbot processes query via OpenAI
 4. Receives PCOS-friendly recipe suggestion
@@ -199,62 +199,62 @@ So that I can access my personalized data.
 
 **Postconditions:** Chat log saved
 
----
 
-## Feature Priority
 
-### Must Have (MVP)
+ Feature Priority
+
+ Must Have (MVP)
 - ✅ User authentication
 - ✅ PCOS risk prediction
 - ✅ Basic journaling
 - ✅ Sentiment analysis
 - ✅ Chatbot integration
 
-### Should Have
+ Should Have
 - Weekly emotion reports
 - Search functionality
 - Prediction history
 - Profile management
 
-### Could Have
+ Could Have
 - Song therapy
 - Daily challenges
 - Community forum
 - Admin dashboard
 
-### Won't Have (This Semester)
+ Won't Have (This Semester)
 - Mobile app
 - Wearable integration
 - Telemedicine
 
----
 
-## Acceptance Testing Scenarios
 
-### Scenario 1: End-to-End User Journey
+ Acceptance Testing Scenarios
+
+ Scenario 1: End-to-End User Journey
 ```
 Given: A new user visits CystaCare
 When: They complete registration, take risk assessment, write a journal, and chat with Foodie
 Then: All features work seamlessly and data is stored correctly
 ```
 
-### Scenario 2: Security Testing
+ Scenario 2: Security Testing
 ```
 Given: An unauthorized user tries to access /user/journal
 When: They are not logged in
 Then: They are redirected to login page with 401 status
 ```
 
-### Scenario 3: ML Model Accuracy
+ Scenario 3: ML Model Accuracy
 ```
 Given: Test dataset with known PCOS cases
 When: Model makes predictions
 Then: Accuracy should be ≥ 83%
 ```
 
----
+
 
 **Document Status:** Draft  
 **Last Updated:** January 2026  
-**Next Review:** Week 5
+
 
