@@ -130,7 +130,6 @@ So that my health data remains private.
 Acceptance Criteria:
 - Email validation
 - Strong password requirements
-- Confirmation email sent
 - Terms of service acceptance
 ```
 
