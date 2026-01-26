@@ -3,18 +3,18 @@
 **Student:** Hardavi Thoria (829265453)  
 **Project:** CystaCare - AI-Powered PCOS Companion  
 **Date:** January 25, 2026  
-
+**Phase:** Weeks 3-4 (Architecture & UI Design)
 
 ---
 
 ## 1. Progress - What Was Completed
 
-✅ **Requirements & Planning**
+✅ **Requirements & Planning (Weeks 1-2)**
 - Conducted PCOS domain research and competitive analysis
 - Defined user personas and created detailed user stories
 - Selected technology stack (Node.js, MongoDB, Python ML, OpenAI API)
 
-✅ **Architecture & Design**
+✅ **Architecture & Design (Weeks 3-4)**
 - Designed complete system architecture with three core modules:
   - PCOS-Detection (ML risk prediction)
   - Moodie Journal (sentiment analysis)
@@ -37,10 +37,9 @@
 - *Issue:* Three distinct modules (ML, sentiment analysis, chatbot) require different tech stacks
 - *Decision:* Designed microservices-style architecture where Python ML models communicate with Node.js backend via REST APIs
 
-
 **Challenge 3: Real-time Chatbot Performance**
 - *Issue:* OpenAI API calls may have latency
-- *Decision:* May implement loading states, conversation caching, and typing indicators in frontend
+- *Decision:* I May implement loading states, conversation caching, and typing indicators in frontend
 
 ---
 
@@ -57,17 +56,16 @@
 
 ## 4. TODO - Next Milestones
 
-**Phase 1: ML Model Development**
+**Phase 1: ML Model Development **
 - **Tasks:**
   - Source PCOS dataset (Kaggle/UCI)
   - Clean and preprocess data
   - Train Random Forest classifier
   - Achieve 83%+ accuracy
-  - Create model serving API endpoint
 - **Deliverables:** Trained model (.pkl file), model API script, accuracy report
 - **Evaluation:** Model accuracy metrics, confusion matrix, validation tests
 
-**Phase 2: Backend Development**
+**Phase 2: Backend Development **
 - **Tasks:**
   - Set up Express.js server and MongoDB
   - Implement JWT authentication
@@ -82,7 +80,6 @@
   - Convert HTML prototypes to EJS templates
   - Connect frontend to backend APIs
   - Implement dynamic data rendering
-  - Add AJAX for smooth UX
 - **Deliverables:** Full-stack working application
 - **Evaluation:** Complete user flow from signup to feature usage
 
@@ -106,6 +103,6 @@
 
 ---
 
-**Status:** ✅ On Track | 100% of planned tasks for Weeks 1-4 completed  
-**Next Checkpoint:** Week 7 (Backend completion review)
+**Status:** ✅ On Track | 100% of planned tasks for Weeks 1-2 completed  
+**Next Checkpoint:** Backend completion review
 

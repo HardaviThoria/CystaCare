@@ -1,9 +1,8 @@
 # Frontend Source Code
 
-**Status:** UI Prototypes Created - Week 3-4  
-**Development Planned:** Week 9-10
+**Status:** UI Prototypes Created 
 
----
+
 
 ## Current Pages (Prototypes)
 
@@ -126,20 +125,10 @@ frontend/
 - Getting started section
 - User profile actions
 
----
-
-## Development Timeline
-
-- ✅ **Week 3-4:** UI Prototypes (Current)
-- **Week 7-8:** Backend API development
-- **Week 9:** Convert to EJS templates
-- **Week 10:** Backend integration and dynamic data
-- **Week 11-12:** Connect with ML models and chatbot
-- **Integration:** Full-stack functionality
 
 ---
 
-## Next Steps (Week 7+)
+## Next Steps 
 
 1. Convert HTML to EJS templates
 2. Integrate with Express.js backend
@@ -148,7 +137,7 @@ frontend/
 5. Add dynamic data rendering
 6. Implement AJAX calls for smooth UX
 
----
+
 
 ## Notes for Professor
 
@@ -158,10 +147,10 @@ These are **static HTML prototypes** demonstrating:
 - Component structure
 - User flow
 
-Full backend integration will occur in Week 9-10 after API development (Week 7-8).
+Full backend integration will occur in later Weeks.
 
 ---
 
 **Current Phase:** UI Prototyping ✅  
-**Next Milestone:** Backend API Development (Week 7-8)
+
 

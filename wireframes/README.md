@@ -1,8 +1,8 @@
 # Wireframes & UI/UX Design
 
 **Project:** CystaCare  
-**Phase:** UI/UX Design (Week 3-4)  
-**Design Tool:** Figma / Adobe XD / Hand-drawn  
+**Phase:** UI/UX Design  
+**Design Tool:** Figma / Adobe XD / Hand-drawn  / balsamiq
 **Date:** January 2026
 
 ---

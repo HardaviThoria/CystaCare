@@ -1,9 +1,6 @@
 # Machine Learning Models
 
-**Status:** Placeholder - Week 3  
-**Development Planned:** Week 5-6
 
----
 
 ## Planned Models
 
@@ -51,8 +48,8 @@ ml-models/
 
 ## Development Timeline
 
-- **Week 5:** Data collection and preprocessing
-- **Week 6:** Model training and evaluation
+- **next:** Data collection and preprocessing
+- **next:** Model training and evaluation
 - **Integration:** Connect with backend via python-shell
 
 ---
@@ -64,7 +61,7 @@ ml-models/
 - **Size:** 500+ samples
 - **Features:** Age, BMI, symptoms, lifestyle factors
 - **Target:** PCOS diagnosis (binary)
-
+OR
 ### Custom Dataset
 - **Collection Method:** Google Forms survey
 - **Status:** Data collection planned
@@ -83,5 +80,5 @@ ml-models/
 ---
 
 **Current Phase:** Architecture Planning  
-**Next Milestone:** Begin data collection in Week 5
+**Next Milestone:** Begin data collection
 
