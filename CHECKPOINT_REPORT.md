@@ -3,18 +3,18 @@
 **Student:** Hardavi Thoria (829265453)  
 **Project:** CystaCare - AI-Powered PCOS Companion  
 **Date:** January 25, 2026  
-**Phase:** Weeks 3-4 (Architecture & UI Design)
+
 
 ---
 
 ## 1. Progress - What Was Completed
 
-✅ **Requirements & Planning (Weeks 1-2)**
+✅ **Requirements & Planning**
 - Conducted PCOS domain research and competitive analysis
 - Defined user personas and created detailed user stories
 - Selected technology stack (Node.js, MongoDB, Python ML, OpenAI API)
 
-✅ **Architecture & Design (Weeks 3-4)**
+✅ **Architecture & Design**
 - Designed complete system architecture with three core modules:
   - PCOS-Detection (ML risk prediction)
   - Moodie Journal (sentiment analysis)
@@ -37,13 +37,10 @@
 - *Issue:* Three distinct modules (ML, sentiment analysis, chatbot) require different tech stacks
 - *Decision:* Designed microservices-style architecture where Python ML models communicate with Node.js backend via REST APIs
 
-**Challenge 2: UI/UX for Sensitive Health Data**
-- *Issue:* PCOS is a sensitive topic requiring empathetic design
-- *Decision:* Used warm color palette (pink/blue gradients), non-clinical language, and reassuring iconography
 
 **Challenge 3: Real-time Chatbot Performance**
 - *Issue:* OpenAI API calls may have latency
-- *Decision:* Will implement loading states, conversation caching, and typing indicators in frontend
+- *Decision:* May implement loading states, conversation caching, and typing indicators in frontend
 
 ---
 
@@ -53,15 +50,14 @@
 
 *Minor Considerations:*
 - Dataset for PCOS prediction model needs to be sourced and cleaned 
-- OpenAI API costs need to be managed - will implement rate limiting
+- OpenAI API costs need to be managed - may implement rate limiting
 - MongoDB Atlas setup pending 
 
 ---
 
 ## 4. TODO - Next Milestones
 
-**Phase 1: ML Model Development (Weeks 5-6)**
-- **Target Date:** February 8, 2026
+**Phase 1: ML Model Development**
 - **Tasks:**
   - Source PCOS dataset (Kaggle/UCI)
   - Clean and preprocess data
@@ -71,8 +67,7 @@
 - **Deliverables:** Trained model (.pkl file), model API script, accuracy report
 - **Evaluation:** Model accuracy metrics, confusion matrix, validation tests
 
-**Phase 2: Backend Development (Weeks 7-8)**
-- **Target Date:** February 22, 2026
+**Phase 2: Backend Development**
 - **Tasks:**
   - Set up Express.js server and MongoDB
   - Implement JWT authentication
@@ -82,8 +77,7 @@
 - **Deliverables:** Working REST API, Postman test collection
 - **Evaluation:** All API endpoints functional, authentication working
 
-**Phase 3: Frontend Integration (Weeks 9-10)**
-- **Target Date:** March 8, 2026
+**Phase 3: Frontend Integration**
 - **Tasks:**
   - Convert HTML prototypes to EJS templates
   - Connect frontend to backend APIs
@@ -96,7 +90,7 @@
 
 ## 5. Checkpoint Meeting Notes
 
-**Meeting Date:** January 25, 2026
+**Meeting Date:** January 29, 2026
 
 ### Feedback Received:
 - *(To be filled after meeting)*
