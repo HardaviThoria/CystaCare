@@ -61,3 +61,9 @@ coverage/
 .cache/
 .tmp/
 
+# Checkpoint Presentation Files (local only)
+CHECKPOINT_1_NOTES.md
+FRONTEND_DEMO_SCRIPT.md
+START_HERE.md
+WHAT_TO_SHOW.md
+
